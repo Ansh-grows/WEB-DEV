@@ -16,7 +16,7 @@ function RecipeDetails() {
             SetLoading(false);
         }catch(error){
             
-            setErrorMsg("Could not load recipe details. Please try again.");
+            SetErrorMsg("Could not load recipe details. Please try again.");
             console.log(error)
         }
         SetLoading(false);
